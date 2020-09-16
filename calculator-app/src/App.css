@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+
+}
+
+
+body{
+
+  margin: 0 ;
+  padding : 0 ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+
+}
+
+
+.calc-wrapper {
+
+  background-color: green;
+  width : 40vw ;
+  height : 60vh ;
+
+
+
+}
+
+.heading {
+  background-color: grey;
+}
+hr {
+    margin : 0 ;
+}
+
+
+.display { 
+  height: 15vh;
+  background-color: black ;
+  color : white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.buttons-section {
+
+  display: grid;
+  height : 30vh ;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,1fr);    
+
+}
+
+.clear-section  {
+  display:grid ;
+  height: 5vh;
+
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top : 1vh ;
+}
